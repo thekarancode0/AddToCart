@@ -3,12 +3,12 @@ import ProductCard from './ProductCard'
 
 export default function Shop() {
   const products = [
-    {imgUrl:'../public/iPhone7.png', name:'iPhone7', price:'67,000', desc:'best performance'},
-    {imgUrl:'../public/iPhone16.png', name:'iPhone16', price:'72,900', desc:'7th Gen performance'},
-    {imgUrl:'../public/samsungUltra25.png', name:'Samsung Galaxy s25 Ultra', price:'72,900', desc:'7th Gen performance'},
-    {imgUrl:'../public/nothing3a.png', name:'Nothing 3a', price:'35,000', desc:'Awesome Camera and look'},
-    {imgUrl:'../public/nothing2a.png', name:'Nothing 2a', price:'22,000', desc:'Long lasting Battery'},
-    {imgUrl:'../public/cmf.png', name:'CMF', price:'15,000', desc:'Better UI and Look'}
+    {imgUrl:'..AddToCart/iPhone7.png', name:'iPhone7', price:'67,000', desc:'best performance'},
+    {imgUrl:'..AddToCart/iPhone16.png', name:'iPhone16', price:'72,900', desc:'7th Gen performance'},
+    {imgUrl:'..AddToCart/samsungUltra25.png', name:'Samsung Galaxy s25 Ultra', price:'72,900', desc:'7th Gen performance'},
+    {imgUrl:'..AddToCart/nothing3a.png', name:'Nothing 3a', price:'35,000', desc:'Awesome Camera and look'},
+    {imgUrl:'..AddToCart/nothing2a.png', name:'Nothing 2a', price:'22,000', desc:'Long lasting Battery'},
+    {imgUrl:'..AddToCart/cmf.png', name:'CMF', price:'15,000', desc:'Better UI and Look'}
   ]
   return (
     <section className='w-screen  bg-gray-900 text-white'>
